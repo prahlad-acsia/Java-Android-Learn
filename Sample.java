@@ -14,5 +14,8 @@ class Sample {
         System.out.println("length "+str.length());
         System.out.println("sub string "+str.substring(0,2));
         // System.out.println(str.replace("p", "A"));
+        float f = 12.5f;
+        int i = 5;
+        int j = (int)(i*f);
     }
 }
